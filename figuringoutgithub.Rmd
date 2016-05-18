@@ -31,7 +31,7 @@ table(d$mpg)
 # changes to be in branch 
 table(d$hp)
 
-
+names(cars)
 ```
 
 ## Including Plots
