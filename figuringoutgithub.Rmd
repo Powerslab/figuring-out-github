@@ -32,6 +32,7 @@ table(d$mpg)
 table(d$hp)
 
 names(cars)
+cars[1]
 ```
 
 ## Including Plots
@@ -39,7 +40,8 @@ names(cars)
 You can also embed plots, for example:
 
 ```{r pressure, echo=FALSE}
-plot(pressure)
+pressure_plot <- plot(pressure)
+
 ```
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
